@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{baseUrl}}/alunos"
+method: GET
+order: 1000

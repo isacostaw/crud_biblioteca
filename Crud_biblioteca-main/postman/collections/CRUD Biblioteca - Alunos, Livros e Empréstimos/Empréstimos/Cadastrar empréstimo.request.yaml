@@ -1,0 +1,16 @@
+$kind: http-request
+description: Os nomes dos campos e o formato das datas dependem da classe Emprestimo e do controller.
+url: "{{baseUrl}}/emprestimos"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "alunoId": 1,
+      "livroId": 1,
+      "dataEmprestimo": "2026-10-15",
+      "dataDevolucao": "2026-10-22"
+    }
+order: 3000

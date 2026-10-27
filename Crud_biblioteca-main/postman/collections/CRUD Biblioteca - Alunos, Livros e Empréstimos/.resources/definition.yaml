@@ -1,0 +1,4 @@
+$kind: collection
+description: "Coleção inicial de testes CRUD para Postman. ATENÇÃO: confirme os caminhos, nomes dos campos e tipos no código Spring Boot do projeto antes de executar. As rotas /alunos, /livros e /emprestimos são exemplos."
+variables:
+  baseUrl: http://localhost:8080

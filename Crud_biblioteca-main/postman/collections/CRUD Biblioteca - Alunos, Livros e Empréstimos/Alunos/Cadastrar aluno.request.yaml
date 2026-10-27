@@ -1,0 +1,15 @@
+$kind: http-request
+description: Ajuste os campos conforme a classe Aluno do seu projeto.
+url: "{{baseUrl}}/alunos"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "nome": "Ana Silva",
+      "email": "ana.silva@example.com",
+      "matricula": "2026001"
+    }
+order: 3000

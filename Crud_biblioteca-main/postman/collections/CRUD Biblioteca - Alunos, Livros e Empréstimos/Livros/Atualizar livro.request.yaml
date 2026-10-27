@@ -1,0 +1,16 @@
+$kind: http-request
+description: Ajuste os campos conforme a classe Livro do seu projeto.
+url: "{{baseUrl}}/livros/1"
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "titulo": "Dom Casmurro - edição atualizada",
+      "autor": "Machado de Assis",
+      "anoPublicacao": 1899,
+      "isbn": "978-85-00-00000-0"
+    }
+order: 4000

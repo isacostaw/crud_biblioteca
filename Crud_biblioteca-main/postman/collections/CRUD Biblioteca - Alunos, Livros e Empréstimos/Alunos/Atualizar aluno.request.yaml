@@ -1,0 +1,15 @@
+$kind: http-request
+description: Ajuste os campos conforme a classe Aluno do seu projeto.
+url: "{{baseUrl}}/alunos/1"
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "nome": "Ana Silva Atualizada",
+      "email": "ana.atualizada@example.com",
+      "matricula": "2026001"
+    }
+order: 4000

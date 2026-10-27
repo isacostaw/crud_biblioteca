@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:8080/emprestimos/1/devolucao
+method: PATCH
+body:
+  type: json
+  content: ""
+order: 4000
